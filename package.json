@@ -1,0 +1,42 @@
+{
+  "name": "return-top",
+  "officialName": "return-top",
+  "version": "1.0.0",
+  "summary": "Simple (2 kb) & Pure javascript achieve click image to return top of website with animation",
+  "description": "Simple (2 kb) & Pure javascript achieve click image to return top of website with animation",
+  "author": {
+    "name": "hustcc",
+    "url": "https://github.com/hustcc"
+  },
+  "homepage": "http://www.atool.org/",
+  "license": "MIT",
+  "keywords": [
+    "return",
+    "top",
+    "return-top",
+    "scoll-top",
+    "go back"
+  ],
+  "main": "dist/x-return-top.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hustcc/x-return-top.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hustcc/x-return-top.js/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-inject-version": "^1.0.1"
+  },
+  "scripts": {
+    "lint": "jshint src/x-return-top.js",
+    "test": "npm run lint",
+    "build": "gulp mini && npm run test"
+  },
+  "dependencies": {
+  }
+}

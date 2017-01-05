@@ -1,0 +1,14 @@
+{
+  "quotmark": false,
+  "boss": false,
+  "eqnull": false,
+  "expr": true,
+  "funcscope": false,
+  "loopfunc": false,
+  "smarttabs": false,
+  "node": false,
+  "browser": false,
+  "undef": false,
+  "unused": false,
+  "scripturl": true
+}
